@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matan Margolin | Composer &middot; Sound Designer &middot; Producer</title>
+    <meta name="description" content="Matan Margolin — Award-winning Israeli composer, sound designer, and producer for film, TV, and games.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===== LOADING SCREEN ===== -->
+    <div class="loader" id="loader">
+        <div class="loader-logo">
+            <span class="loader-m1">M</span><span class="loader-m2">M</span>
+        </div>
+    </div>
+
+    <!-- ===== GLOBAL FIREFLY PARTICLES ===== -->
+    <div class="global-particles" id="globalParticles"></div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <a href="#hero" class="nav-logo">M<span class="gold">M</span></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about" data-en="About" data-he="אודות">About</a></li>
+            <li><a href="#portfolio" data-en="Projects" data-he="פרויקטים">Projects</a></li>
+            <li><a href="#credits" data-en="Credits" data-he="קרדיטים">Credits</a></li>
+            <li><a href="#album" data-en="Album" data-he="אלבום">Album</a></li>
+            <li><a href="#appsoluti" data-en="Appsoluti" data-he="Appsoluti">Appsoluti</a></li>
+            <li><a href="#contact" data-en="Contact" data-he="צור קשר">Contact</a></li>
+            <li>
+                <button class="lang-toggle" id="langToggle" title="Switch language">
+                    <span class="lang-en">HE</span>
+                    <span class="lang-he" style="display:none">EN</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-content">
+            <div class="hero-image-wrapper hero-image-large">
+                <img src="assets/images/profile-main.png" alt="Matan Margolin" class="hero-image">
+                <div class="hero-image-glow"></div>
+            </div>
+            <h1 class="hero-name">
+                <span class="hero-first" data-en="Matan" data-he="מתן">Matan</span>
+                <span class="hero-last" data-en="Margolin" data-he="מרגולין">Margolin</span>
+            </h1>
+            <p class="hero-tagline" data-en="Composer &middot; Sound Designer &middot; Producer" data-he="מלחין &middot; מעצב סאונד &middot; מפיק">Composer &middot; Sound Designer &middot; Producer</p>
+            <p class="hero-sub" data-en="Crafting sonic worlds for film, television &amp; games" data-he="יוצר עולמות קוליים לקולנוע, טלוויזיה ומשחקים">Crafting sonic worlds for film, television &amp; games</p>
+            <div class="hero-cta">
+                <a href="#portfolio" class="btn btn-primary" data-en="Explore My Projects" data-he="לפרויקטים">Explore My Projects</a>
+                <a href="#contact" class="btn btn-outline" data-en="Get in Touch" data-he="צור קשר">Get in Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About" data-he="אודות">About</h2>
+            <div class="about-grid">
+                <div class="about-image-col">
+                    <img src="assets/images/award-ceremony.jpg" alt="Matan at the Israeli Television Academy Awards" class="about-image">
+                    <p class="about-image-caption" data-en="Israeli Television Academy Awards" data-he="טקס פרסי האקדמיה לטלוויזיה">Israeli Television Academy Awards</p>
+                </div>
+                <div class="about-text-col">
+                    <p class="about-lead" data-en="Award-winning Israeli sound designer, composer, and mixer with a passion for creating immersive sonic experiences." data-he="מעצב סאונד, מלחין ומיקסר ישראלי זוכה פרסים, עם תשוקה ליצירת חוויות קוליות סוחפות.">
+                        Award-winning Israeli sound designer, composer, and mixer with a passion for creating immersive sonic experiences.
+                    </p>
+                    <p data-en="Known for his work on Bad Boy (2025), winner of Best Drama Series at the Israeli Television Academy Awards, and Junam (2024), which won Best Fiction Film at the Cinema South Festival. He also contributed to Netflix's Cold Case: The Tylenol Murders (2025) and the award-winning short Malachi." data-he="ידוע בזכות עבודתו על 'בד בוי' (2025), זוכה פרס הדרמה הטובה ביותר בטקס פרסי האקדמיה לטלוויזיה, ו'ג'ונאם' (2024), שזכה בפרס סרט העלילה הטוב ביותר בפסטיבל קולנוע דרום. כמו כן תרם לסדרת נטפליקס 'Cold Case: The Tylenol Murders' (2025) ולסרט הקצר 'מלאכי' זוכה הפרסים.">
+                        Known for his work on <strong>Bad Boy</strong> (2025), winner of Best Drama Series at the Israeli Television Academy Awards, and <strong>Junam</strong> (2024), which won Best Fiction Film at the Cinema South Festival. He also contributed to Netflix's <strong>Cold Case: The Tylenol Murders</strong> (2025) and the award-winning short <strong>Malachi</strong>.
+                    </p>
+                    <p data-en="Formerly part of the team at SoundAround Studios, Matan has collaborated on a wide range of acclaimed film and television productions. His focus extends into interactive media — designing adaptive audio systems and composing music for the game industry." data-he="בעבר חלק מצוות SoundAround Studios, מתן שיתף פעולה במגוון רחב של הפקות קולנוע וטלוויזיה מוערכות. ההתמקדות שלו משתרעת גם למדיה אינטראקטיבית — עיצוב מערכות אודיו אדפטיביות והלחנת מוזיקה לתעשיית המשחקים.">
+                        Formerly part of the team at <strong>SoundAround Studios</strong>, Matan has collaborated on a wide range of acclaimed film and television productions. His focus extends into interactive media — designing adaptive audio systems and composing music for the game industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section hidden for now -->
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section class="section section-dark" id="portfolio">
+        <div class="container">
+            <h2 class="section-title" data-en="Projects" data-he="פרויקטים">Projects</h2>
+
+            <!-- Category Tabs -->
+            <div class="portfolio-tabs">
+                <button class="tab-btn active" data-category="all" data-en="All" data-he="הכל">All</button>
+                <button class="tab-btn" data-category="game" data-en="Game Audio" data-he="אודיו למשחקים">Game Audio</button>
+                <button class="tab-btn" data-category="composition" data-en="Composition" data-he="הלחנה">Composition</button>
+                <button class="tab-btn" data-category="sound-design" data-en="Sound Design" data-he="עיצוב סאונד">Sound Design</button>
+            </div>
+
+            <!-- Portfolio Grid — featured first -->
+            <div class="portfolio-grid">
+                <!-- Featured: And Now -->
+                <div class="portfolio-card" data-category="composition">
+                    <div class="card-video" data-video-id="lwFD1A4TB1s">
+                        <img src="https://img.youtube.com/vi/lwFD1A4TB1s/maxresdefault.jpg" alt="And Now" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="Composition &middot; Orchestration" data-he="הלחנה &middot; תזמור">Composition &middot; Orchestration</span>
+                        <h3>And Now</h3>
+                    </div>
+                </div>
+
+                <!-- Featured: Attraction -->
+                <div class="portfolio-card" data-category="sound-design">
+                    <div class="card-video" data-video-id="8QFPKWsEj48">
+                        <img src="https://img.youtube.com/vi/8QFPKWsEj48/maxresdefault.jpg" alt="Attraction" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="Sound Design" data-he="עיצוב סאונד">Sound Design</span>
+                        <h3>Attraction</h3>
+                    </div>
+                </div>
+
+                <!-- Featured: Portal -->
+                <div class="portfolio-card" data-category="game">
+                    <div class="card-video" data-video-id="Kp8fYh8oySo">
+                        <img src="https://img.youtube.com/vi/Kp8fYh8oySo/hqdefault.jpg" alt="Portal - FMOD" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="FMOD &middot; Game Audio" data-he="FMOD &middot; אודיו למשחקים">FMOD &middot; Game Audio</span>
+                        <h3>Portal</h3>
+                        <p data-en="Adaptive audio redesign using FMOD" data-he="עיצוב אודיו אדפטיבי מחדש באמצעות FMOD">Adaptive audio redesign using FMOD</p>
+                    </div>
+                </div>
+
+                <!-- Featured: Diablo II -->
+                <div class="portfolio-card" data-category="game">
+                    <div class="card-video" data-video-id="7EAzHtky1ks">
+                        <img src="https://img.youtube.com/vi/7EAzHtky1ks/maxresdefault.jpg" alt="Diablo II - FMOD" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="FMOD &middot; Game Audio" data-he="FMOD &middot; אודיו למשחקים">FMOD &middot; Game Audio</span>
+                        <h3>Diablo II</h3>
+                        <p data-en="Interactive audio system implementation" data-he="מימוש מערכת אודיו אינטראקטיבית">Interactive audio system implementation</p>
+                    </div>
+                </div>
+
+                <!-- Featured: Limbo -->
+                <div class="portfolio-card" data-category="game">
+                    <div class="card-video" data-video-id="9im063WKm-g">
+                        <img src="https://img.youtube.com/vi/9im063WKm-g/maxresdefault.jpg" alt="Limbo - FMOD" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="FMOD &middot; Game Audio" data-he="FMOD &middot; אודיו למשחקים">FMOD &middot; Game Audio</span>
+                        <h3>Limbo</h3>
+                        <p data-en="Atmospheric sound design with FMOD" data-he="עיצוב סאונד אטמוספרי עם FMOD">Atmospheric sound design with FMOD</p>
+                    </div>
+                </div>
+
+                <!-- Severance -->
+                <div class="portfolio-card" data-category="composition">
+                    <div class="card-video" data-video-id="vIAgHA3S1Dg">
+                        <img src="https://img.youtube.com/vi/vIAgHA3S1Dg/maxresdefault.jpg" alt="Severance" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="Composition &middot; Orchestration" data-he="הלחנה &middot; תזמור">Composition &middot; Orchestration</span>
+                        <h3>Severance</h3>
+                    </div>
+                </div>
+
+                <!-- Sanctuary of Rock and Water -->
+                <div class="portfolio-card" data-category="composition">
+                    <div class="card-video" data-video-id="gV4FJJ-2Nuo">
+                        <img src="https://img.youtube.com/vi/gV4FJJ-2Nuo/maxresdefault.jpg" alt="Sanctuary of Rock and Water" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="Composition &middot; Orchestration" data-he="הלחנה &middot; תזמור">Composition &middot; Orchestration</span>
+                        <h3>Sanctuary of Rock and Water</h3>
+                    </div>
+                </div>
+
+                <!-- Tanti Anni Prima -->
+                <div class="portfolio-card" data-category="composition">
+                    <div class="card-video" data-video-id="AFiOD6BnKBc">
+                        <img src="https://img.youtube.com/vi/AFiOD6BnKBc/maxresdefault.jpg" alt="Tanti Anni Prima - Ave Maria" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="Composition &middot; Orchestration" data-he="הלחנה &middot; תזמור">Composition &middot; Orchestration</span>
+                        <h3>Tanti Anni Prima — Ave Maria</h3>
+                    </div>
+                </div>
+
+                <!-- Ancient Move -->
+                <div class="portfolio-card" data-category="composition">
+                    <div class="card-video" data-video-id="yS9P9mqjlF0">
+                        <img src="https://img.youtube.com/vi/yS9P9mqjlF0/hqdefault.jpg" alt="Ancient Move" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="Composition &middot; Orchestration" data-he="הלחנה &middot; תזמור">Composition &middot; Orchestration</span>
+                        <h3>Ancient Move</h3>
+                    </div>
+                </div>
+
+                <!-- Arcane -->
+                <div class="portfolio-card" data-category="sound-design">
+                    <div class="card-video" data-video-id="Q32MqI2tpgY">
+                        <img src="https://img.youtube.com/vi/Q32MqI2tpgY/maxresdefault.jpg" alt="Arcane" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="Sound Design" data-he="עיצוב סאונד">Sound Design</span>
+                        <h3>Arcane</h3>
+                    </div>
+                </div>
+
+                <!-- Between the Folds of Time -->
+                <div class="portfolio-card" data-category="sound-design">
+                    <div class="card-video" data-video-id="eBpVmoZZpbY">
+                        <img src="https://img.youtube.com/vi/eBpVmoZZpbY/maxresdefault.jpg" alt="Between the Folds of Time" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="Sound Design &middot; Original" data-he="עיצוב סאונד &middot; מקורי">Sound Design &middot; Original</span>
+                        <h3 data-en="Between the Folds of Time" data-he="בין קפלי הזמן">Between the Folds of Time</h3>
+                    </div>
+                </div>
+
+                <!-- YouTube: Fantastic Mr. Fox -->
+                <div class="portfolio-card" data-category="sound-design">
+                    <div class="card-video" data-video-id="4ClnC5hBAC0">
+                        <img src="https://img.youtube.com/vi/4ClnC5hBAC0/maxresdefault.jpg" alt="Fantastic Mr. Fox" class="card-thumb" loading="lazy">
+                        <div class="play-overlay"><div class="play-btn"></div></div>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-tag" data-en="Sound Design" data-he="עיצוב סאונד">Sound Design</span>
+                        <h3>Fantastic Mr. Fox</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== VIDEO LIGHTBOX ===== -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <div class="lightbox-content">
+            <iframe id="lightboxVideo" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- ===== STUDIO BW DIVIDER ===== -->
+    <div class="studio-bw-divider">
+        <img src="assets/images/profile-studio-bw.png" alt="Matan Margolin in studio" class="studio-bw-img" loading="lazy">
+    </div>
+
+    <!-- ===== CREDITS / IMDB ===== -->
+    <section class="section" id="credits">
+        <div class="container">
+            <h2 class="section-title" data-en="Credits" data-he="קרדיטים">Credits</h2>
+            <div class="credits-content">
+                <table class="credits-table">
+                    <thead>
+                        <tr>
+                            <th data-en="Year" data-he="שנה">Year</th>
+                            <th data-en="Project" data-he="פרויקט">Project</th>
+                            <th data-en="Notes" data-he="הערות">Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="credit-highlight">
+                            <td>2024</td>
+                            <td><strong>Junam</strong></td>
+                            <td class="gold" data-en="Winner — Best Sound Design" data-he="זוכה — עיצוב סאונד מיטבי">Winner — Best Sound Design</td>
+                        </tr>
+                        <tr>
+                            <td>2024–25</td>
+                            <td><strong>Bad Boy</strong></td>
+                            <td class="gold" data-en="Best Sound Design Award &middot; 10 Awards &middot; Emmy Nominated &middot; Netflix" data-he="פרס עיצוב סאונד מיטבי &middot; 10 פרסים &middot; מועמד לאמי &middot; Netflix">Best Sound Design Award &middot; 10 Awards &middot; Emmy Nominated &middot; Netflix</td>
+                        </tr>
+                        <tr>
+                            <td>2025</td>
+                            <td><strong>No Witches in the Valley</strong></td>
+                            <td class="gold" data-en="2 Awards &middot; 1 Nomination" data-he="2 פרסים &middot; מועמדות 1">2 Awards &middot; 1 Nomination</td>
+                        </tr>
+                        <tr>
+                            <td>2025</td>
+                            <td><strong>Malachi</strong></td>
+                            <td class="gold" data-en="2 Awards" data-he="2 פרסים">2 Awards</td>
+                        </tr>
+                        <tr>
+                            <td>2025</td>
+                            <td><strong>Burning Man</strong></td>
+                            <td class="gold" data-en="3 Awards" data-he="3 פרסים">3 Awards</td>
+                        </tr>
+                        <tr>
+                            <td>2025</td>
+                            <td><strong>Sun Bay</strong></td>
+                            <td class="gold" data-en="3 Awards" data-he="3 פרסים">3 Awards</td>
+                        </tr>
+                        <tr>
+                            <td>2025</td>
+                            <td><strong>Cold Case: The Tylenol Murders</strong></td>
+                            <td>Netflix</td>
+                        </tr>
+                        <tr>
+                            <td>2025</td>
+                            <td><strong>Nutuk</strong></td>
+                            <td class="gold" data-en="12 Nominations" data-he="12 מועמדויות">12 Nominations</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td><strong>Musical Chairs</strong></td>
+                            <td class="gold" data-en="2 Awards" data-he="2 פרסים">2 Awards</td>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td><strong>Another Mantra</strong></td>
+                            <td class="gold" data-en="1 Award" data-he="פרס 1">1 Award</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td><strong>Hostages</strong></td>
+                            <td class="gold" data-en="1 Nomination" data-he="מועמדות 1">1 Nomination</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="credits-prize">
+                    <img src="assets/images/prize-junam.png" alt="Best Sound Design Award — Junam" class="credits-prize-img" loading="lazy">
+                    <p class="about-image-caption" data-en="Best Sound Design — Junam" data-he="עיצוב סאונד מיטבי — ג'ונאם">Best Sound Design — Junam</p>
+                </div>
+                <div class="credits-cta">
+                    <a href="https://www.imdb.com/name/nm14679020/" target="_blank" rel="noopener" class="btn btn-imdb">
+                        <svg class="imdb-icon" viewBox="0 0 64 32" width="48" height="24"><rect width="64" height="32" rx="4" fill="#f5c518"/><text x="32" y="23" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="18" fill="#000">IMDb</text></svg>
+                        <span data-en="Full Filmography on IMDb" data-he="פילמוגרפיה מלאה ב-IMDb">Full Filmography on IMDb</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ALBUM ===== -->
+    <section class="section section-dark" id="album">
+        <div class="container">
+            <h2 class="section-title" data-en="Debut Album" data-he="אלבום בכורה">Debut Album</h2>
+            <div class="album-content">
+                <div class="album-visual">
+                    <div class="album-embed">
+                        <iframe src="https://www.youtube.com/embed/videoseries?list=OLAK5uy_nI9MLRuvOqCAkKClkRYOMByC6KKiYkOgs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="album-info">
+                    <h3 class="album-title-en">Immediate Reality</h3>
+                    <h3 class="album-title-he">המציאות התכופה</h3>
+                    <div class="album-links">
+                        <a href="https://open.spotify.com/album/4zTDtZp4BRniLV5mVZyE6o" target="_blank" rel="noopener" class="btn btn-spotify">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+                            Spotify
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=4cyDHo0Javk&list=OLAK5uy_nI9MLRuvOqCAkKClkRYOMByC6KKiYkOgs" target="_blank" rel="noopener" class="btn btn-outline">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                            YouTube
+                        </a>
+                        <a href="https://soundcloud.com/matanm-1/sets/immediate-reality" target="_blank" rel="noopener" class="btn btn-outline">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c-.009-.057-.049-.1-.1-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.172 1.282c.013.06.045.094.104.094.057 0 .09-.037.104-.094l.206-1.282-.206-1.332c-.014-.057-.047-.094-.104-.094m1.79-.96c-.068 0-.12.048-.12.114l-.209 2.271.209 2.196c0 .066.052.114.12.114.073 0 .12-.048.12-.114l.239-2.196-.239-2.271c0-.066-.047-.114-.12-.114m.899-.12c-.073 0-.12.044-.127.114l-.193 2.391.193 2.271c.007.07.054.114.127.114.08 0 .12-.044.127-.114l.209-2.271-.209-2.391c-.007-.07-.047-.114-.127-.114m.899-.168c-.08 0-.134.054-.134.127l-.178 2.559.178 2.391c0 .073.054.127.134.127.074 0 .127-.054.134-.127l.209-2.391-.209-2.559c-.007-.073-.06-.127-.134-.127m.899-.098c-.088 0-.147.054-.147.14l-.165 2.657.165 2.451c0 .086.059.14.147.14.08 0 .14-.054.147-.14l.193-2.451-.193-2.657c-.007-.086-.067-.14-.147-.14m.952-.227c-.094 0-.16.066-.16.153l-.15 2.884.15 2.511c0 .094.066.153.16.153s.153-.059.16-.153l.172-2.511-.172-2.884c-.007-.087-.066-.153-.16-.153m.899-.088c-.1 0-.167.066-.167.166l-.135 2.972.135 2.558c0 .1.067.166.167.166.094 0 .167-.066.167-.166l.157-2.558-.157-2.972c0-.1-.073-.166-.167-.166m.952-.178c-.107 0-.18.073-.18.18l-.12 3.15.12 2.598c0 .107.073.18.18.18.1 0 .173-.073.18-.18l.14-2.598-.14-3.15c-.007-.107-.08-.18-.18-.18m.952-.12c-.113 0-.193.08-.193.193l-.1 3.27.1 2.628c0 .113.08.193.193.193.107 0 .186-.08.193-.193l.12-2.628-.12-3.27c-.007-.113-.086-.193-.193-.193m1.039-.18c-.12 0-.206.086-.206.206l-.094 3.45.094 2.658c0 .12.086.206.206.206s.2-.086.206-.206l.1-2.658-.1-3.45c-.006-.12-.086-.206-.206-.206m.952-.04c-.127 0-.213.094-.22.213l-.073 3.49.073 2.673c.007.12.093.207.22.207.12 0 .206-.087.213-.207l.086-2.673-.086-3.49c-.007-.12-.093-.213-.213-.213m1.099-.18c-.133 0-.227.1-.233.227l-.06 3.67.06 2.698c.006.127.1.227.233.227.127 0 .22-.1.227-.227l.073-2.698-.073-3.67c-.007-.127-.1-.227-.227-.227m1.005.073c-.14 0-.24.1-.24.24l-.054 3.597.054 2.692c0 .14.1.24.24.24.133 0 .233-.1.24-.24l.06-2.692-.06-3.597c-.007-.14-.107-.24-.24-.24m1.192.12c-.147 0-.253.106-.253.253l-.04 3.477.04 2.686c0 .147.106.253.253.253.14 0 .247-.106.253-.253l.047-2.686-.047-3.477c-.006-.147-.113-.253-.253-.253m1.005-.127c-.153 0-.267.113-.267.267l-.027 3.604.027 2.673c0 .153.114.267.267.267.147 0 .26-.114.267-.267l.033-2.673-.033-3.604c-.007-.154-.12-.267-.267-.267m1.099.173c-.16 0-.28.12-.28.28V14.48l.027 2.66c0 .16.12.28.28.28.153 0 .273-.12.28-.28l.033-2.66-.033-3.573c-.007-.16-.127-.28-.28-.28m1.192-.293c-.167 0-.293.127-.293.293v3.866l.027 2.653c0 .167.126.293.293.293.16 0 .286-.126.293-.293l.027-2.653-.027-3.866c-.007-.166-.133-.293-.293-.293m1.093.387c-.167 0-.3.133-.3.3l-.013 3.48.013 2.646c0 .167.133.3.3.3.167 0 .3-.133.3-.3l.02-2.646-.02-3.48c0-.167-.133-.3-.3-.3m1.2-.56c-.173 0-.313.14-.313.313l-.007 4.04.007 2.64c0 .172.14.312.313.312a.312.312 0 00.313-.312l.013-2.64-.013-4.04a.312.312 0 00-.313-.313m1.046.227a.326.326 0 00-.326.326l-.007 3.487.007 2.633a.326.326 0 00.652 0l.007-2.633-.007-3.487a.326.326 0 00-.326-.326m1.1.12c-.18 0-.333.147-.333.333v3.36l.007 2.633a.33.33 0 00.333.327.33.33 0 00.333-.327l.007-2.633-.007-3.36a.337.337 0 00-.34-.333"/></svg>
+                            SoundCloud
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== APPSOLUTI ===== -->
+    <section class="section" id="appsoluti">
+        <div class="container">
+            <h2 class="section-title">Appsoluti</h2>
+            <div class="appsoluti-content">
+                <div class="appsoluti-info">
+                    <span class="card-tag" data-en="Web App &middot; Music Theory" data-he="אפליקציית ווב &middot; תורת המוזיקה">Web App &middot; Music Theory</span>
+                    <h3 data-en="Interactive Music Theory Tool" data-he="כלי אינטראקטיבי לתורת המוזיקה">Interactive Music Theory Tool</h3>
+                    <p data-en="A web application I designed and developed for exploring chord structures, intervals, and harmonic relationships through an intuitive visual interface." data-he="אפליקציית ווב שעיצבתי ופיתחתי לחקירת מבני אקורדים, אינטרוולים ויחסים הרמוניים דרך ממשק ויזואלי אינטואיטיבי.">
+                        A web application I designed and developed for exploring chord structures, intervals, and harmonic relationships through an intuitive visual interface.
+                    </p>
+                    <a href="https://matanmusicedu-gif.github.io/Appsoluti/" target="_blank" rel="noopener" class="btn btn-primary" data-en="Try Appsoluti" data-he="נסו את Appsoluti">Try Appsoluti</a>
+                </div>
+                <div class="appsoluti-visual">
+                    <div class="app-mockup">
+                        <div class="app-mockup-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="app-mockup-screen">
+                            <iframe src="https://matanmusicedu-gif.github.io/Appsoluti/" title="Appsoluti Preview" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section section-dark" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Get in Touch" data-he="צרו קשר">Get in Touch</h2>
+            <p class="contact-sub" data-en="Looking for a composer or sound designer for your next project? Let's talk." data-he="מחפשים מלחין או מעצב סאונד לפרויקט הבא שלכם? בואו נדבר.">
+                Looking for a composer or sound designer for your next project? Let's talk.
+            </p>
+            <div class="contact-grid">
+                <a href="mailto:Matanmusicedu@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    </div>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">Matanmusicedu@gmail.com</span>
+                </a>
+                <a href="https://wa.me/972505655036" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </div>
+                    <span class="contact-label">WhatsApp</span>
+                    <span class="contact-value">+972-50-565-5036</span>
+                </a>
+                <a href="https://www.instagram.com/matan_margolin/" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </div>
+                    <span class="contact-label">Instagram</span>
+                    <span class="contact-value">@matan_margolin</span>
+                </a>
+                <a href="https://www.facebook.com/matan.margolin" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </div>
+                    <span class="contact-label">Facebook</span>
+                    <span class="contact-value">Matan Margolin</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p class="footer-name">Matan Margolin</p>
+            <p class="footer-copy">&copy; 2026 All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
