@@ -617,7 +617,7 @@ img { max-width: 100%; display: block; }
     width: 100%;
     max-width: 1200px;
     object-fit: cover;
-    object-position: center 75%;
+    object-position: center 40%;
     display: block;
     opacity: 0.4;
     mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 75%, transparent 100%);
